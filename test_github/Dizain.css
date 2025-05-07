@@ -10,7 +10,7 @@ body {color: rgb(33,33,33);
 	height: 12vh;
 	font-size: 1.2vw;
 	position: absolute;
-	z-index: 0;
+	z-index: -1;
 	top: -1vh;
 	left: 0vw;
 }
@@ -20,7 +20,7 @@ body {color: rgb(33,33,33);
 	width: 66vw;
 	height: 110vh;
 	position: absolute;
-	z-index: 0;
+	z-index: -1;
 	top: 15vh;
 	left: 1vw;
 }
@@ -30,16 +30,10 @@ body {color: rgb(33,33,33);
 	width: 25vw;
 	height: 80vh;
 	position: absolute;
-	z-index: 0;
+	z-index: -1;
 	top: 15vh;
 	left: 72.5vw;
 }
-
-
-
-
-
-
 
 
 
@@ -86,8 +80,8 @@ body {color: rgb(33,33,33);
 	width: 15vw;
 	height: auto;
 	position: absolute;
-	top: 100vh;
-	left: 10vw;
+	top: 30vh;
+	left: 2vw;
 }
 
 .P2jpg img{
