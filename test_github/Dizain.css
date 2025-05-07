@@ -1,0 +1,160 @@
+/*Фон*/
+body {color: rgb(33,33,33);
+	background-color: rgb(133,133,133);
+	font-family: arial;
+	}	
+
+.blok1{background-color: rgb(249, 249, 249);
+	border-radius: 0.5vw;
+	width: 100%;
+	height: 12vh;
+	font-size: 1.2vw;
+	position: absolute;
+	z-index: -1;
+	top: -1vh;
+	left: 0vw;
+}
+
+.blok2{background-color: rgb(249, 249, 249);
+	border-radius: 0.5vw;
+	width: 66vw;
+	height: 555vh;
+	position: absolute;
+	z-index: -1;
+	top: 15vh;
+	left: 1vw;
+}
+
+.blok3{background-color: rgb(249, 249, 249);
+	border-radius: 0.5vw;
+	width: 25vw;
+	height: 80vh;
+	position: absolute;
+	z-index: -1;
+	top: 15vh;
+	left: 72.5vw;
+}
+
+
+
+
+
+
+
+
+/*Панель перехода между страниц*/
+.Glav{color: rgb(33,33,33);
+	position: absolute;
+	z-index: 2;
+	top: 2vh;
+	left: 2vw;	
+}
+.Blog{color: rgb(33,33,33);
+	position: absolute;
+	z-index: 2;
+	top: 2vh;
+	left: 17vw;
+}
+
+.Kont{color: rgb(33,33,33);
+	position: absolute;
+	z-index: 2;
+	top: 2vh;
+	left: 32vw;
+}
+.Obo_{color: rgb(33,33,33);
+	position: absolute;
+	z-index: 2;
+	top: 2vh;
+	left: 47vw;
+}
+.Port{color: rgb(33,33,33);
+	position: absolute;
+	z-index: 2;
+	top: 2vh;
+	left: 62vw;	
+}
+
+/*Изоброжения*/
+.Pijpg img{
+	border-radius: 100%;
+	width: 20vw;
+	height: auto;
+	position: absolute;
+	left: 75vw;
+	top: 18vh;
+}
+
+.P1jpg img{
+	width: 15vw;
+	height: auto;
+	position: absolute;
+	top: 30vh;
+	left: 2vw;
+}
+
+.P2jpg img{
+	width: 20vw;
+	height: auto;	
+	position: absolute;
+	top: 30vh;
+	left: 18vw;
+}
+
+.P3jpg img{
+	width: 20vw;
+	height: auto;	
+	position: absolute;
+	top: 52vh;
+	left: 18vw;
+}
+
+.P4jpg img{
+	width: 27vw;
+	height: auto;	
+	position: absolute;
+	top: 34vh;
+	left: 39vw;
+}
+
+.S5jpg img{
+	width: 28vw;
+	height: auto;	
+	position: absolute;
+	top: 77vh;
+	left: 6vw;
+}
+
+.S6jpg img{
+	width: 28vw;
+	height: auto;	
+	position: absolute;
+	top: 108vh;
+	left: 6vw;
+}
+
+.S7jpg img{
+	width: 30vw;
+	height: auto;	
+	position: absolute;
+	top: 83vh;
+	left: 36vw;
+}
+/*___________________*/
+
+
+.profil{
+	width: 23vw;
+	height: 80vh;
+	position: absolute;
+	top: 50vh;
+	left: 74vw;
+}
+
+
+
+
+
+
+
+
