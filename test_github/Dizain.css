@@ -18,7 +18,7 @@ body {color: rgb(33,33,33);
 .blok2{background-color: rgb(249, 249, 249);
 	border-radius: 0.5vw;
 	width: 66vw;
-	height: 555vh;
+	height: 215vh;
 	position: absolute;
 	z-index: -1;
 	top: 15vh;
@@ -39,7 +39,14 @@ body {color: rgb(33,33,33);
 
 
 
-
+.Nih_panel{background-color: rgb(33, 33, 33);
+	color: rgb(233, 101, 37);
+	width: 100%;
+	height: 30vh;
+	position: absolute;
+	top: 222vh;
+	left: 0vw;
+}
 
 
 /*Панель перехода между страниц*/
@@ -150,11 +157,3 @@ body {color: rgb(33,33,33);
 	top: 50vh;
 	left: 74vw;
 }
-
-
-
-
-
-
-
-
