@@ -4,7 +4,7 @@ body {color: rgb(33,33,33);
 	font-family: arial;
 	}	
 
-.blok1{background-color: rgb(249, 249, 249);
+	.blok1{background-color: rgb(249, 249, 249);
 	border-radius: 0.5vw;
 	width: 100%;
 	height: 12vh;
@@ -13,38 +13,14 @@ body {color: rgb(33,33,33);
 	z-index: -1;
 	top: -1vh;
 	left: 0vw;
-}
-
-.blok2{background-color: rgb(249, 249, 249);
-	border-radius: 0.5vw;
-	width: 66vw;
-	height: 215vh;
-	position: absolute;
-	z-index: -1;
-	top: 15vh;
-	left: 1vw;
-}
-
-.blok3{background-color: rgb(249, 249, 249);
-	border-radius: 0.5vw;
-	width: 25vw;
-	height: 80vh;
-	position: absolute;
-	z-index: -1;
-	top: 15vh;
-	left: 72.5vw;
-}
-
-
-
-
+	}
 
 .Nih_panel{background-color: rgb(33, 33, 33);
 	color: rgb(233, 101, 37);
 	width: 100%;
 	height: 30vh;
 	position: absolute;
-	top: 222vh;
+	top: 297vh;
 	left: 0vw;
 }
 
@@ -147,13 +123,63 @@ body {color: rgb(33,33,33);
 	top: 83vh;
 	left: 34.5vw;
 }
-/*___________________*/
 
-
-.profil{
-	width: 23vw;
-	height: 80vh;
+.H8jpg img{
+	width: 27.5vw;
+	height: auto;	
 	position: absolute;
-	top: 50vh;
-	left: 74vw;
+	top: 146vh;
+	left: 2.5vw;	
 }
+
+.H9jpg img{
+	width: 27vw;
+	height: auto;	
+	position: absolute;
+	top: 181vh;
+	left: 9vw;	
+}
+
+.H10jpg img{
+	width: 28vw;
+	height: auto;	
+	position: absolute;
+	top: 146vh;
+	left: 31vw;	
+}
+
+.H11jpg img{
+	width: 27vw;
+	height: auto;	
+	position: absolute;
+	top: 181vh;
+	left: 37vw;	
+}
+
+.Y12jpg img{
+	width: 28.8vw;
+	height: auto;	
+	position: absolute;
+	top: 254vh;
+	left: 2vw;	
+}
+
+.Y13jpg img{
+	width: 37vw;
+	height: auto;	
+	position: absolute;
+	top: 216vh;
+	left: 15vw;	
+}
+
+.Y14jpg img{
+	width: 34vw;
+	height: auto;	
+	position: absolute;
+	top: 254vh;
+	left: 32vw;	
+}
+
+
+
+/*___________________*/
