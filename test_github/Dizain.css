@@ -4,10 +4,10 @@ body {color: rgb(33,33,33);
 	font-family: arial;
 	}	
 
-	.blok1{background-color: rgb(249, 249, 249);
+.blok1{background-color: rgb(249, 249, 249);
 	border-radius: 0.5vw;
 	width: 100%;
-	height: 12vh;
+	height: 6em;
 	font-size: 1.2vw;
 	position: absolute;
 	z-index: -1;
@@ -15,46 +15,37 @@ body {color: rgb(33,33,33);
 	left: 0vw;
 	}
 
-.Nih_panel{background-color: rgb(33, 33, 33);
-	color: rgb(233, 101, 37);
-	width: 100%;
-	height: 30vh;
-	position: absolute;
-	top: 297vh;
-	left: 0vw;
-}
-
 
 /*Панель перехода между страниц*/
 .Glav{color: rgb(33,33,33);
 	position: absolute;
 	z-index: 2;
-	top: 2vh;
+	top: 1.1em;
 	left: 2vw;	
 }
 .Blog{color: rgb(33,33,33);
 	position: absolute;
 	z-index: 2;
-	top: 2vh;
+	top: 1.1em;
 	left: 17vw;
 }
 
 .Kont{color: rgb(33,33,33);
 	position: absolute;
 	z-index: 2;
-	top: 2vh;
+	top: 1.1em;
 	left: 32vw;
 }
 .Obo_{color: rgb(33,33,33);
 	position: absolute;
 	z-index: 2;
-	top: 2vh;
+	top: 1.1em;
 	left: 47vw;
 }
 .Port{color: rgb(33,33,33);
 	position: absolute;
 	z-index: 2;
-	top: 2vh;
+	top: 1.1em;
 	left: 62vw;	
 }
 
