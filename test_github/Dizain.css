@@ -1,6 +1,6 @@
 /*Фон*/
 body {color: rgb(33,33,33);
-	background: linear-gradient(100deg, rgb(133,133,133), rgb(210,210,210));
+	background: linear-gradient(100deg, rgb(133,133,133), rgb(210,210,210), rgb(133,133,133));
 	font-family: arial;
 	}	
 
