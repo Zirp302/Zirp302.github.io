@@ -1,140 +1,182 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="Dizain.css">
-	<title>Фотографии путешествиннека: Главная</title>
-</head>
-<style type="text/css">
-	.p1 {
-	width: 63vw;
-	position: absolute;
-	top: clamp(9vw, 4vw, 15vw);
-	left: 2vw;
-	font-size: 1.3vw;
-	}
-	.p2 {
-	width: 63vw;
-	position: relative;
-	top: 0.1rem;
-	left: 0vw;
-	font-size: 1.5vw;
-	}
-	.p3 {
-	width: 63vw;
-	position: absolute;
-	top: 70vh;
-	left: 2vw;
-	font-size: 1.5vw;
-	}
-	.p4 {
-	width: 63vw;
-	position: absolute;
-	top: 140vh;
-	left: 2vw;
-	font-size: 1.5vw;
-	}
-	.p5 {
-	width: 63vw;
-	position: absolute;
-	top: 210vh;
-	left: 2vw;
-	font-size: 1.5vw;
-	}
+/*Фон*/
+body {color: rgb(33,33,33);
+	background-color: rgb(133,133,133);
+	font-family: arial;
+	}	
 
-
-	.blok2{background-color: rgb(249, 249, 249);
+.blok1{background-color: rgb(249, 249, 249);
 	border-radius: 0.5vw;
-	width: 66vw;
-	height: 277vh;
-	position: absolute;
-	z-index: -1;
-	top: clamp(9vw, 4vw, 15vw);
-	left: 1vw;
-	}
-
-	.blok3{background-color: rgb(249, 249, 249);
-	border-radius: 0.5vw;
-	width: 25vw;
-	height: 80vh;
-	position: absolute;
-	z-index: -1;
-	top: clamp(9vw, 4vw, 15vw);
-	right: 1vw;
-	}
-
-	.profil{
-	width: 23vw;
-	height: 80vh;
-	position: absolute;
-	top: clamp(31vw, 4vw, 63vw);
-	left: 74vw;
-	font-size: 1.3vw;
-	}
-
-	.Nih_panel{background-color: rgb(33, 33, 33);
-	color: rgb(233, 101, 37);
 	width: 100%;
-	height: 30vh;
+	height: clamp(3vw, 11vw, 8vw);
 	position: absolute;
-	top: 297vh;
+	z-index: -1;
+	top: -1vh;
 	left: 0vw;
 	}
-</style>
-<body>
-	<div class="p1">
-	<p>ПРИВЕТ это мой сайт где я выкладываю свои фотографии сделанные по всему миру(и точно не скаченные с интернета) ну врбщем тут у меня несколько разделов и первй это.</p>
-	<h3 class="p2">Природа: пейзажи гор, рек, деревьевь</h3></div>
-	<h3 class="p3">Населённые пункты: города, деревни, сталицы</h3>
-	<h3 class="p4">Небо: Космос, небо, каметы</h3>
-	<h3 class="p5">Подземелья: шахты, впадины, ущелья</h3>
-
-	<div class="profil">
-		<p>Имя:Камень</p>
-		<p>Фамилия:Дёртов</p>
-		<p>Матчество:Землявич</p>
-		<p>О себе: можно узнать в разделе "Обо мне". Если спросите зачем тогда эта пенль? Потомучто я не придумал что тут добавить, а другие варианты мне не нравятся по этому ешь, что дают даже камни</p>
-
-	</div>	
 
 
+/*Панель перехода между страниц*/
+.Glav{color: rgb(33,33,33);
+	position: absolute;
+	font-size: clamp(1.5vw, 4vw, 2.5vw);
+	z-index: 2;
+	top: 3vw;
+	left: 2vw;	
+}
+.Blog{color: rgb(33,33,33);
+	position: absolute;
+	font-size: clamp(1.5vw, 4vw, 2.5vw);
+	z-index: 2;
+	top: 3vw;
+	left: 22vw;
+}
 
-<!--Блок Квадраты-->
-	<div class = "blok1">
-		<a href='https://zirp302.github.io/test_github/1Glavna.html'><h2><span class = "Glav">Главная</span></a>
-		<a href='https://zirp302.github.io/test_github/2Blog.html'><h2><span class = "Blog">Блог</span></a>
-		<a href='https://zirp302.github.io/test_github/3Kontakt.html'><h2><span class = "Kont">Контакт</span></a>
-		<a href='https://zirp302.github.io/test_github/4My.html'><h2><span class = "Obo_">Обо мне</span></a>
-		<a href='https://zirp302.github.io/test_github/5Portfolio.html'><h2><span class = "Port">Портфолио</span></a>
-	</div>
-	<div class = "blok2"></div>
-	<div class = "blok3"></div>
-	<div class="Nih_panel">
-		<h2>Создатель: Cамый сексуальный мужик в мире</h2>
-		<h2>Художники: Какието мужики</h2>
-		<h2>Прогромист: Пубертатная язва</h2>
-		<h2>Мнеджер: Злодей британец</h2>
-	</div>
-<!--Блок Изоброжений-->
-	<span class="Pijpg"><img src="img\I.jpg"></span>
-	<span class="P1jpg"><img src="img\i1.webp"></span>
-	<span class="P2jpg"><img src="img\i2.webp"></span>
-	<span class="P3jpg"><img src="img\i3.webp"></span>
-	<span class="P4jpg"><img src="img\i4.webp"></span>
-	<span class="S5jpg"><img src="img\i5.jpg"></span>
-	<span class="S6jpg"><img src="img\i6.jpg"></span>
-	<span class="S7jpg"><img src="img\i7.webp"></span>
-	<span class="H8jpg"><img src="img\i8.jpg"></span>
-	<span class="H9jpg"><img src="img\i9.webp"></span>
-	<span class="H10jpg"><img src="img\i10.jpg"></span>
-	<span class="H11jpg"><img src="img\i11.jpg"></span>
-	<span class="Y12jpg"><img src="img\i12.jpg"></span>
-	<span class="Y13jpg"><img src="img\i13.png"></span>
-	<span class="Y14jpg"><img src="img\i14.webp"></span>
+.Kont{color: rgb(33,33,33);
+	position: absolute;
+	font-size: clamp(1.5vw, 4vw, 2.5vw);
+	z-index: 2;
+	top: 3vw;
+	left: 35vw;
+}
+.Obo_{color: rgb(33,33,33);
+	position: absolute;
+	font-size: clamp(1.5vw, 4vw, 2.5vw);
+	z-index: 2;
+	top: 3vw;
+	left: 52vw;	
+}
+.Port{color: rgb(33,33,33);
+	position: absolute;
+	font-size: clamp(1vw, 4vw, 2.5vw);
+	z-index: 2;
+	top: 3vw;
+	left: 70vw;	
+}
 
-<!-------------------->
+/*Изоброжения*/
+.Pijpg img{
+	border-radius: 100%;
+	width: 20vw;
+	height: auto;
+	position: absolute;
+	left: 75vw;
+	top: clamp(10.5vw, 4vw, 17.5vw);
+}
+
+.P1jpg img{
+	width: 15vw;
+	height: auto;
+	position: absolute;
+	top: 30vh;
+	left: 2vw;
+}
+
+.P2jpg img{
+	width: 20vw;
+	height: auto;	
+	position: absolute;
+	top: 30vh;
+	left: 18vw;
+}
+
+.P3jpg img{
+	width: 20vw;
+	height: auto;	
+	position: absolute;
+	top: 52vh;
+	left: 18vw;
+}
+
+.P4jpg img{
+	width: 27vw;
+	height: auto;	
+	position: absolute;
+	top: 34vh;
+	left: 39vw;
+}
+
+.S5jpg img{
+	width: 28vw;
+	height: auto;	
+	position: absolute;
+	top: 77vh;
+	left: 3.5vw;
+}
+
+.S6jpg img{
+	width: 28vw;
+	height: auto;	
+	position: absolute;
+	top: 108vh;
+	left: 3.5vw;
+}
+
+.S7jpg img{
+	width: 30vw;
+	height: auto;	
+	position: absolute;
+	top: 83vh;
+	left: 34.5vw;
+}
+
+.H8jpg img{
+	width: 27.5vw;
+	height: auto;	
+	position: absolute;
+	top: 146vh;
+	left: 2.5vw;	
+}
+
+.H9jpg img{
+	width: 27vw;
+	height: auto;	
+	position: absolute;
+	top: 181vh;
+	left: 9vw;	
+}
+
+.H10jpg img{
+	width: 28vw;
+	height: auto;	
+	position: absolute;
+	top: 146vh;
+	left: 31vw;	
+}
+
+.H11jpg img{
+	width: 27vw;
+	height: auto;	
+	position: absolute;
+	top: 181vh;
+	left: 37vw;	
+}
+
+.Y12jpg img{
+	width: 28.8vw;
+	height: auto;	
+	position: absolute;
+	top: 254vh;
+	left: 2vw;	
+}
+
+.Y13jpg img{
+	width: 37vw;
+	height: auto;	
+	position: absolute;
+	top: 216vh;
+	left: 15vw;	
+}
+
+.Y14jpg img{
+	width: 34vw;
+	height: auto;	
+	position: absolute;
+	top: 254vh;
+	left: 32vw;	
+}
 
 
-</body>
-</html>
+
+/*___________________*/
+
+
