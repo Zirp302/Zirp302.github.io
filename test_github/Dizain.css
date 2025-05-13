@@ -18,14 +18,14 @@ body {color: rgb(33,33,33);
 /*Панель перехода между страниц*/
 .Glav{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1.5vw, 4vw, 2.5vw);
+	font-size: clamp(1.5vw, 4vw, 2.1vw);
 	z-index: 2;
 	top: 3vw;
 	left: 2vw;	
 }
 .Blog{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1.5vw, 4vw, 2.5vw);
+	font-size: clamp(1.5vw, 4vw, 2.1vw);
 	z-index: 2;
 	top: 3vw;
 	left: 22vw;
@@ -33,21 +33,21 @@ body {color: rgb(33,33,33);
 
 .Kont{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1.5vw, 4vw, 2.5vw);
+	font-size: clamp(1.5vw, 4vw, 2.1vw);
 	z-index: 2;
 	top: 3vw;
 	left: 35vw;
 }
 .Obo_{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1.5vw, 4vw, 2.5vw);
+	font-size: clamp(1.5vw, 4vw, 2.1vw);
 	z-index: 2;
 	top: 3vw;
 	left: 52vw;	
 }
 .Port{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1vw, 4vw, 2.5vw);
+	font-size: clamp(1vw, 4vw, 2.1vw);
 	z-index: 2;
 	top: 3vw;
 	left: 70vw;	
@@ -56,128 +56,127 @@ body {color: rgb(33,33,33);
 /*Изоброжения*/
 .Pijpg img{
 	border-radius: 100%;
-	width: 20vw;
+	width: 80%;
 	height: auto;
 	position: absolute;
-	left: 75vw;
-	top: clamp(10.5vw, 4vw, 17.5vw);
+	left: 10%;
+	top: 1.5vw
 }
 
 .P1jpg img{
 	width: 15vw;
 	height: auto;
 	position: absolute;
-	top: 30vh;
-	left: 2vw;
+	top: 8.5vw;
+	left: 0vw;
 }
 
 .P2jpg img{
 	width: 20vw;
 	height: auto;	
 	position: absolute;
-	top: 30vh;
-	left: 18vw;
+	top: 8.5vw;
+	left: 16vw;
 }
 
 .P3jpg img{
 	width: 20vw;
 	height: auto;	
 	position: absolute;
-	top: 52vh;
-	left: 18vw;
+	top: 20.8vw;
+	left: 16vw;
 }
 
 .P4jpg img{
 	width: 27vw;
 	height: auto;	
 	position: absolute;
-	top: 34vh;
-	left: 39vw;
+	top: 11vw;
+	left: 37vw;
 }
 
 .S5jpg img{
-	width: 28vw;
-	height: auto;	
-	position: absolute;
-	top: 77vh;
-	left: 3.5vw;
-}
-
-.S6jpg img{
-	width: 28vw;
-	height: auto;	
-	position: absolute;
-	top: 108vh;
-	left: 3.5vw;
-}
-
-.S7jpg img{
 	width: 30vw;
 	height: auto;	
 	position: absolute;
-	top: 83vh;
-	left: 34.5vw;
+	top: 5vw;
+	left: 0.5vw;
+}
+
+.S6jpg img{
+	width: 30vw;
+	height: auto;	
+	position: absolute;
+	top: 23vw;
+	left: 0.5vw;
+}
+
+.S7jpg img{
+	width: 31vw;
+	height: auto;	
+	position: absolute;
+	top: 9vw;
+	left: 32.4vw;
 }
 
 .H8jpg img{
-	width: 27.5vw;
+	width: 30vw;
 	height: auto;	
 	position: absolute;
-	top: 146vh;
-	left: 2.5vw;	
+	top: 5vw;
+	left: 0vw;	
 }
 
 .H9jpg img{
-	width: 27vw;
+	width: 31vw;
 	height: auto;	
 	position: absolute;
-	top: 181vh;
-	left: 9vw;	
+	top: 26.5vw;
+	left: 1.5vw;	
 }
 
 .H10jpg img{
-	width: 28vw;
+	width: 30.57vw;
 	height: auto;	
 	position: absolute;
-	top: 146vh;
-	left: 31vw;	
+	top: 5vw;
+	left: 31.5vw;	
 }
 
 .H11jpg img{
-	width: 27vw;
+	width: 30.5vw;
 	height: auto;	
 	position: absolute;
-	top: 181vh;
-	left: 37vw;	
+	top: 26.7vw;
+	left: 33.5vw;	
 }
 
 .Y12jpg img{
 	width: 28.8vw;
 	height: auto;	
 	position: absolute;
-	top: 254vh;
-	left: 2vw;	
+	top: 5vw;
+	left: 0vw;	
 }
 
 .Y13jpg img{
 	width: 37vw;
 	height: auto;	
 	position: absolute;
-	top: 216vh;
-	left: 15vw;	
+	top: 26vw;
+	left: 14vw;	
 }
 
 .Y14jpg img{
 	width: 34vw;
 	height: auto;	
 	position: absolute;
-	top: 254vh;
-	left: 32vw;	
+	top: 5vw;
+	left: 30vw;	
 }
 
 
 
 /*___________________*/
-
 
 
