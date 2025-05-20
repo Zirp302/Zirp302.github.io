@@ -1,0 +1,189 @@
+/*Фон*/
+body {color: rgb(33,33,33);
+	background-color: rgb(133,133,133);
+	font-family: arial;
+	}	
+
+.blok1{background-color: rgb(249, 249, 249);
+	border-radius: 0.5vw;
+	width: 100%;
+	height: clamp(3vw, 11vw, 8vw);
+	position: absolute;
+	z-index: -1;
+	top: -1vh;
+	left: 0vw;
+	}
+
+
+/*Панель перехода между страниц*/
+.Glav{color: rgb(33,33,33);
+	position: absolute;
+	font-size: 2.1vw;
+	z-index: 2;
+	top: 3vw;
+	left: 2vw;	
+}
+.Blog{color: rgb(33,33,33);
+	position: absolute;
+	font-size: clamp(1.5vw, 4vw, 2.1vw);
+	z-index: 2;
+	top: 3vw;
+	left: 22vw;
+}
+
+.Kont{color: rgb(33,33,33);
+	position: absolute;
+	font-size: clamp(1.5vw, 4vw, 2.1vw);
+	z-index: 2;
+	top: 3vw;
+	left: 35vw;
+}
+.Obo_{color: rgb(33,33,33);
+	position: absolute;
+	font-size: clamp(1.5vw, 4vw, 2.1vw);
+	z-index: 2;
+	top: 3vw;
+	left: 52vw;	
+}
+.Port{color: rgb(33,33,33);
+	position: absolute;
+	font-size: clamp(1vw, 4vw, 2.1vw);
+	z-index: 2;
+	top: 3vw;
+	left: 70vw;	
+}
+
+/*Изоброжения*/
+.Pijpg img{
+	border-radius: 100%;
+	width: 80%;
+	height: auto;
+	position: absolute;
+	left: 10%;
+	top: 1.5vw
+}
+
+.P1jpg img{
+	width: 15vw;
+	height: auto;
+	position: absolute;
+	top: 5vw;
+	left: 0vw;
+}
+
+.P2jpg img{
+	width: 20vw;
+	height: auto;	
+	position: absolute;
+	top: 5vw;
+	left: 16vw;
+}
+
+.P3jpg img{
+	width: 20vw;
+	height: auto;	
+	position: absolute;
+	top: 17.3vw;
+	left: 16vw;
+}
+
+.P4jpg img{
+	width: 27vw;
+	height: auto;	
+	position: absolute;
+	top: 7.7vw;
+	left: 37vw;
+}
+
+.S5jpg img{
+	width: 30vw;
+	height: auto;	
+	position: absolute;
+	top: 5vw;
+	left: 0.5vw;
+}
+
+.S6jpg img{
+	width: 30vw;
+	height: auto;	
+	position: absolute;
+	top: 23vw;
+	left: 0.5vw;
+}
+
+.S7jpg img{
+	width: 31vw;
+	height: auto;	
+	position: absolute;
+	top: 9vw;
+	left: 32.4vw;
+}
+
+.H8jpg img{
+	width: 30vw;
+	height: auto;	
+	position: absolute;
+	top: 5vw;
+	left: 0vw;	
+}
+
+.H9jpg img{
+	width: 31vw;
+	height: auto;	
+	position: absolute;
+	top: 26.5vw;
+	left: 1.5vw;	
+}
+
+.H10jpg img{
+	width: 30.57vw;
+	height: auto;	
+	position: absolute;
+	top: 5vw;
+	left: 31.5vw;	
+}
+
+.H11jpg img{
+	width: 30.5vw;
+	height: auto;	
+	position: absolute;
+	top: 26.7vw;
+	left: 33.5vw;	
+}
+
+.Y12jpg img{
+	width: 28.8vw;
+	height: auto;	
+	position: absolute;
+	top: 5vw;
+	left: 0vw;	
+}
+
+.Y13jpg img{
+	width: 37vw;
+	height: auto;	
+	position: absolute;
+	top: 26vw;
+	left: 14vw;	
+}
+
+.Y14jpg img{
+	width: 34vw;
+	height: auto;	
+	position: absolute;
+	top: 5vw;
+	left: 30vw;	
+}
+
+
+
+/*___________________*/
+
+
+
+
+
+
+
+
+
