@@ -18,14 +18,14 @@ body {color: rgb(33,33,33);
 /*Панель перехода между страниц*/
 .Glav{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1.5vw, 4vw, 2.1vw);
+	font-size: 160%;
 	z-index: 2;
 	top: 3vw;
 	left: 2vw;	
 }
 .Blog{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1.5vw, 4vw, 2.1vw);
+	font-size: 160%;
 	z-index: 2;
 	top: 3vw;
 	left: 22vw;
@@ -33,21 +33,21 @@ body {color: rgb(33,33,33);
 
 .Kont{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1.5vw, 4vw, 2.1vw);
+	font-size: 160%;
 	z-index: 2;
 	top: 3vw;
 	left: 35vw;
 }
 .Obo_{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1.5vw, 4vw, 2.1vw);
+	font-size: 160%;
 	z-index: 2;
 	top: 3vw;
 	left: 52vw;	
 }
 .Port{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(1vw, 4vw, 2.1vw);
+	font-size: 160%;
 	z-index: 2;
 	top: 3vw;
 	left: 70vw;	
