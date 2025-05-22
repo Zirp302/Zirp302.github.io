@@ -18,39 +18,40 @@ body {color: rgb(33,33,33);
 /*Панель перехода между страниц*/
 .Glav{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(14px, 2.5vw, 30px);
+	font-size: clamp(14px, 2.5vw, 33px);
 	z-index: 2;
-	top: 40%;
+	top: 36%;
 	left: 2vw;	
 }
 .Blog{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(14px, 2.5vw, 30px);
+	font-size: clamp(14px, 2.5vw, 33px);
 	z-index: 2;
-	top: 40%;
+	top: 36%;
 	left: 22vw;
 }
 
 .Kont{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(14px, 2.5vw, 30px);
+	font-size: clamp(14px, 2.5vw, 33px);
 	z-index: 2;
-	top: 40%;
+	top: 36%;
 	left: 35vw;
 }
 .Obo_{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(14px, 2.5vw, 30px);
+	font-size: clamp(14px, 2.5vw, 33px);
 	z-index: 2;
-	top: 40%;
+	top: 36%;
 	left: 52vw;	
 }
 .Port{color: rgb(33,33,33);
 	position: absolute;
-	font-size: clamp(14px, 2.5vw, 30px);
+	font-size: clamp(14px, 2.5vw, 33px);
 	z-index: 2;
-	top: 40%;
+	top: 36%;
 	left: 70vw;	
 }
+
 
 
